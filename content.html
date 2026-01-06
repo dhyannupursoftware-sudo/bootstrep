@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+</head>
+<body>
+
+    <div class="container-sm mt-5">
+        <div class="container text-center bg-light p-4 border">
+    <p class="h1 bg-danger">Display headings</p>
+    <h1 class="display-1">Display 1</h1>
+<h1 class="display-2">Display 2</h1>
+<h1 class="display-3">Display 3</h1>
+<h1 class="display-4">Display 4</h1>
+<h1 class="display-5">Display 5</h1>
+<h1 class="display-6">Display 6</h1>
+</div>
+</div>
+
+<div class="container-sm mt-5">
+    <div class="container text-center bg-light p-4 border">
+        <p class="h2">lead</p>
+<p class="lead">
+    This is a lead paragraph. <mark>It stands out from regular paragraphs</mark>.
+  </p>
+  </div>
+  </div>
+
+  <div class="container-sm mt-5">
+    <div class="container text-center bg-light p-4 border">
+  <p>You can use the mark tag to <mark>highlight</mark> text.</p>
+<p><del>This line of text is meant to be treated as deleted text.</del></p>
+<p><s>This line of text is meant to be treated as no longer accurate.</s></p>
+<p><ins>This line of text is meant to be treated as an addition to the document.</ins></p>
+<p><u>This line of text will render as underlined.</u></p>
+<p><small>This line of text is meant to be treated as fine print.</small></p>
+<p><strong>This line rendered as bold text.</strong></p>
+<p><em>This line rendered as italicized text.</em></p>
+</div>
+</div>
+
+<div class="container-sm mt-5">
+    <div class="container text-center bg-light p-4 border">
+        <h2>figure</h2>
+<figure class="text-center">
+    <blockquote class="blockquote">
+      <p>A well-known quote, contained in a blockquote element.</p>
+    </blockquote>
+    <figcaption class="blockquote-footer">
+      Someone famous in <cite title="Source Title">Source Title</cite>
+    </figcaption>
+  </figure>
+  </div>
+  </div>
+
+  <div class="container-sm mt-5">
+    <div class="container bg-light p-4 border">
+  <ul class="list-unstyled">
+    <p class="h1 text-center">This is a list.</p>
+    <li>It appears completely unstyled.</li>
+    <li>Structurally, it’s still a list.</li>
+    <li>However, this style only applies to immediate child elements.</li>
+    <li>Nested lists:
+      <ul>
+        <li>are unaffected by this style</li>
+        <li>will still show a bullet</li>
+        <li>and have appropriate left margin</li>
+      </ul>
+    </li>
+    <li>This may still come in handy in some situations.</li>
+  </ul>
+  </div>
+  </div>
+
+  <div class="container-sm mt-5">
+    <div class="container bg-light p-4 border">
+        <p class="h2">inline list item</p>
+  <ul class="list-inline">
+    <li class="list-inline-item">This is a list item.</li>
+    <li class="list-inline-item">And another one.</li>
+    <li class="list-inline-item">But they’re displayed inline.</li>
+  </ul>
+  </div>
+  </div>
+
+  <div class="container-sm mt-5">
+    <div class="container bg-light p-4 border">
+        <p class="h2 text-center">Description</p>
+  <dl class="row">
+    <dt class="col-sm-3">Description lists</dt>
+    <dd class="col-sm-9">A description list is perfect for defining terms.</dd>
+  
+    <dt class="col-sm-3">Term</dt>
+    <dd class="col-sm-9">
+      <p>Definition for the term.</p>
+      <p>And some more placeholder definition text.</p>
+    </dd>
+  
+    <dt class="col-sm-3">Another term</dt>
+    <dd class="col-sm-9">This definition is short, so no extra paragraphs or anything.</dd>
+  
+    <dt class="col-sm-3 text-truncate">Truncated term is truncated</dt>
+    <dd class="col-sm-9">This can be useful when space is tight. Adds an ellipsis at the end.</dd>
+  
+    <dt class="col-sm-3">Nesting</dt>
+    <dd class="col-sm-9">
+      <dl class="row">
+        <dt class="col-sm-4">Nested definition list</dt>
+        <dd class="col-sm-8">I heard you like definition lists. Let me put a definition list inside your definition list.</dd>
+      </dl>
+    </dd>
+  </dl>
+  </div>
+  </div><br><br>
+
+     <p class="display-1 text-center"><u>IMAGE</u></p>
+  <div class="container-sm mt-5">
+    <div class="container bg-light text-center p-4 border">
+        <p class="h2 text-center">image</p>
+  <img src="p.jpg" class="img-fluid" alt="hi iam lila">
+</div>
+</div>
+
+<div class="container-sm mt-5">
+    <div class="container bg-light text-center p-4 border">
+        <h1 class="text-center">img-thumbnail</h1>
+<img src="p.jpg" class="img-thumbnail" alt="dhyan">
+</div>
+</div>
+
+    <div class="container-sm mt-5 bg-light p-4 border" style="height: 400px;" >
+        <h1 class="text-center">Aligning images</h1>
+<img src="p.jpg" class="rounded float-start" alt="dhyan">
+<img src="p.jpg" class="rounded float-end" alt="dhyan">
+</div><br><br>
+
+
+<p class="display-1 text-center"><u> TABLES </u></p>
+
+<div class="container-sm mt-5">
+    <div class="container bg-light text-center p-4 border">
+        <p class="h1">table</p>
+        <table class="table table-bordered border-primary">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">First</th>
+                <th scope="col">Last</th>
+                <th scope="col">Handle</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>John</td>
+                <td>Doe</td>
+                <td>@social</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+    </div>
+
+
+    <div class="container-sm mt-5">
+        <div class="container bg-light text-center p-4 border">
+            <h3 class="mb-3">Bootstrap Table Colors</h3>
+
+  <table class="table table-hover table-bordered border-primary">
+    <thead>
+      <tr>
+        <th>Class</th>
+        <th>Heading</th>
+        <th>Heading</th>
+      </tr>
+    </thead>
+    <tbody class="table-group-divider">
+      <tr>
+        <th>Default</th>
+        <td>Cell</td>
+        <td>Cell</td>
+      </tr>
+
+      <tr class="table-primary">
+        <th>Primary</th>
+        <td>Cell</td>
+        <td>Cell</td>
+      </tr>
+
+      <tr class="table-secondary">
+        <th>Secondary</th>
+        <td>Cell</td>
+        <td>Cell</td>
+      </tr>
+
+      <tr class="table-success table-active">
+        <th>Success</th>
+        <td>Cell</td>
+        <td>Cell</td>
+      </tr>
+
+      <tr class="table-danger">
+        <th>Danger</th>
+        <td>Cell</td>
+        <td>Cell</td>
+      </tr>
+
+      <tr class="table-warning">
+        <th>Warning</th>
+        <td>Cell</td>
+        <td>Cell</td>
+      </tr>
+
+      <tr class="table-info">
+        <th>Info</th>
+        <td>Cell</td>
+        <td>Cell</td>
+      </tr>
+
+      <tr class="table-light">
+        <th>Light</th>
+        <td>Cell</td>
+        <td>Cell</td>
+      </tr>
+
+      <tr class="table-dark">
+        <th>Dark</th>
+        <td>Cell</td>
+        <td>Cell</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+</div>
+
+
+<div class="container-sm mt-5">
+    <div class="container bg-light text-center p-4 border">
+        <h2 class="container text-center">divider</h2>
+
+<table class="table">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">First</th>
+        <th scope="col">Last</th>
+        <th scope="col">Handle</th>
+      </tr>
+    </thead>
+    <tbody class="table-group-divider">
+      <tr>
+        <th scope="row">1</th>
+        <td>Mark</td>
+        <td>Otto</td>
+        <td>@mdo</td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td>Jacob</td>
+        <td>Thornton</td>
+        <td>@fat</td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td>John</td>
+        <td>Doe</td>
+        <td>@social</td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+  </div>
+
+
+  <div class="container-sm mt-5">
+    <div class="container bg-light text-center p-4 border">
+  <h3 class="mb-3">Nested Table Example</h3>
+
+  <table class="table table-striped table-bordered">
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>First</th>
+        <th>Last</th>
+        <th>Handle</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>Mark</td>
+        <td>Otto</td>
+        <td>@mdo</td>
+      </tr>
+
+      <!-- 🔽 NESTED TABLE ROW -->
+      <tr>
+        <td colspan="4">
+          <table class="table table-bordered mb-0">
+            <thead>
+              <tr class="table-light">
+                <th>Header</th>
+                <th>Header</th>
+                <th>Header</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>A</td>
+                <td>First</td>
+                <td>Last</td>
+              </tr>
+              <tr>
+                <td>B</td>
+                <td>First</td>
+                <td>Last</td>
+              </tr>
+              <tr>
+                <td>C</td>
+                <td>First</td>
+                <td>Last</td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+
+      <tr>
+        <td>3</td>
+        <td>John</td>
+        <td>Doe</td>
+        <td>@social</td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+  </div>
+
+   <p class="display-1 text-center"><u>FORM</u></p>
+
+  <div class="container-sm mt-5">
+    <div class="container bg-light  p-4 border">
+  <h3 class="mb-3"><form ></form></h3>
+
+  <form>
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">Email address</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputPassword1" class="form-label">Password</label>
+      <input type="password" class="form-control" id="exampleInputPassword1">
+    </div>
+    <div class="mb-3 form-check">
+      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+      <label class="form-check-label" for="exampleCheck1">Check me out</label>
+    </div>
+    <button type="submit" class="btn btn-primary" style="margin-left: 500px;">Submit</button>
+  </form>
+</div>
+</div>
+
+
+
+</body>
+</html>
